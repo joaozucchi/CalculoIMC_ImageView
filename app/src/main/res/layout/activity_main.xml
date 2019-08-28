@@ -52,9 +52,9 @@
         android:layout_below="@id/editTextAltura"
         android:layout_centerInParent="true"
         android:layout_centerVertical="true"
-        android:layout_marginTop="31dp"
-        android:text="Calcular IMC"
-        android:onClick="calcularIMC"/>
+        android:layout_marginTop="22dp"
+        android:onClick="calcularIMC"
+        android:text="Calcular IMC" />
 
     <TextView
         android:id="@+id/textViewIMC"
@@ -63,8 +63,9 @@
         android:layout_below="@id/editTextAltura"
         android:layout_centerInParent="true"
         android:layout_centerVertical="true"
-        android:layout_marginTop="102dp"
-        android:text="IMC" />
+        android:layout_marginTop="79dp"
+        android:text="IMC"
+        android:textSize="23dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -72,8 +73,16 @@
         android:layout_below="@id/textViewIMC"
         android:layout_centerInParent="true"
         android:layout_centerVertical="true"
-        android:layout_marginTop="79dp"
-        android:text="CRÉDITOS"
-        android:onClick="mostrarCreditos"/>
+        android:layout_marginTop="142dp"
+        android:onClick="mostrarCreditos"
+        android:text="CRÉDITOS" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="281dp"
+        android:layout_height="138dp"
+        android:layout_below="@id/textViewIMC"
+        app:srcCompat="@drawable/perfil"
+        android:layout_centerInParent="true"/>
 
 </RelativeLayout>
